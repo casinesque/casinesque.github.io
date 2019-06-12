@@ -1,4 +1,0 @@
-Sitemap: https://casinesque.me/sitemapindex.xml
-
-User-Agent: *
-Host: casinesque.me
