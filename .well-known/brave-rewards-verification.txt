@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: casinesque.me
+Token: ee44710ca6f55272b4c07dc388d133d1338db66f739695280e6af42b6aec34aa 
