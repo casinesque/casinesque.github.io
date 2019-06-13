@@ -44,7 +44,7 @@ You can find me on [Github](https://github.com/casinesque), [Medium](https://med
 
 You can contact me by email at marcoktm89 [AT] gmail.com
 
-My PGP public key ID is __0x21EAF6E3B166BB77__  its fingerprint is: __B9B6 560C 4523 65E8 B00E 5727 21EA F6E3 B166 BB77__ and you can download my whole public key <a href="https://www.casinesque.me/files/(0x21EAF6E3B166BB77)pub.asc" title="Here">here</a>
+My PGP public key ID is __0x21EAF6E3B166BB77__  its fingerprint is: __B9B6 560C 4523 65E8 B00E 5727 21EA F6E3 B166 BB77__ and you can download my whole public key <a href="https://www.casinesque.me/(0x21EAF6E3B166BB77)pub.asc" title="Here">here</a>
 
 ### __Hobbies__:
 Cinema, science, philosophy, travelling
