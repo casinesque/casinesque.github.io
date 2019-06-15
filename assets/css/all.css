@@ -1058,12 +1058,8 @@ a.pagination-item:hover {
 
 @media only screen and (orientation: portrait) and (pointer:coarse) {
   .cryptocurrencies-logos{
-    /*text-align:center;
+    text-align:center;
     margin-left:auto;
-    margin-right:auto; */
-    float:center;
-    display:flex;
-    flex-direction:row;    
     margin-right:100px;
       
 }
