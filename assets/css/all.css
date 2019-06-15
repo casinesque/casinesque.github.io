@@ -396,9 +396,11 @@ tbody tr:nth-child(odd) th {
     display: none;
   }
 }
-@media only screen and (orientation: portrait)  {
+@media orientation: portrait  {
   .masthead-title {
     text-align: center;
+    color: #151515;
+    font-size:30px;
   }
   .masthead-title small {
     display: none;
