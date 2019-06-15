@@ -321,6 +321,14 @@ tbody tr:nth-child(odd) th {
     display: none;
   }
 }
+@media only screen and (orientation: portrait)  {
+  .masthead-title {
+    text-align: center;
+  }
+  .masthead-title small {
+    display: none;
+  }
+}
 /* Sidebar
  *
  * The sidebar is the drawer, the item we toggle with the hamburger
