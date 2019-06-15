@@ -1055,6 +1055,15 @@ a.pagination-item:hover {
   background-color: #f9f9f9;
 }
 
+
+@media only screen and (orientation: portrait) and (pointer:coarse) {
+  .cryptocurrencies-logos{
+    float:center;
+    display:flex;
+    flex-direction:row;
+}
+}
+
 .cryptocurrencies-logos{
     float:center;
     display:flex;
