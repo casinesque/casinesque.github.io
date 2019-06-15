@@ -989,7 +989,7 @@ a.pagination-item:hover {
     float:center;
     display:flex;
     flex-direction:row;    
-    margin-left:180px;
+    margin-right:180px;
       
 }
 }
