@@ -2,3 +2,7 @@ Sitemap: https://casinesque.me/sitemapindex.xml
 
 User-Agent: *
 Host: casinesque.me
+Disallow: /cgi-bin/
+Disallow: /galleries/
+Disallow: /assets/
+Disallow: /categories/
