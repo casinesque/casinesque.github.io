@@ -14,6 +14,6 @@ Domain is provided by folks of [Porkbun](https://Porkbun.com).
 Versioning is naturally handled by git.
 
 In contrast to current [trends](https://httparchive.org/reports/page-weight), i try to keep everything light, small and with a very low network loads. 
-This made me proud enough to have achieved an A+ carbon emission rating for this tiny space. (https://www.websitecarbon.com/website/)
+This made me proud enough to have achieved an A+ carbon emission [rating]((https://www.websitecarbon.com/website/casinesque-me/)) for this tiny space ! 
 
 Opinions are my own.
