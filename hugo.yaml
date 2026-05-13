@@ -1,0 +1,159 @@
+baseURL: "https://casinesque.me/"
+title: "Casinesque.me"
+theme: PaperMod
+pagerSize: 5
+languageCode: 'en'
+
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Casinesque.me
+  description: "Casinesque.me-Marco Casini"
+  keywords: [Blog, Portfolio, Technology, Engineer]
+  author: Marco Casini
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # dark, light, auto
+  disableThemeToggle: false
+  mainSections: [] #nasconde i blog post dalla home
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  customCSS:
+  - css/extended/override.css
+
+  assets:
+    #https://medium.com/@kiaeisinga/publishing-a-hugo-website-with-the-papermod-theme-to-gitlab-pages-efb9c7ae102e
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+
+  
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  profileMode:
+    enabled: false
+    title: Marco Casini
+    subtitle: "DevOps, Cloud, SRE"
+    imageUrl: "/images/me_recent.jpeg" #Must be on /static/images
+    imageWidth: 240
+    imageHeight: 240
+    imageTitle: "my image"
+    # buttons:
+    #   - name: Archives
+    #     url: archives
+    #   - name: Posts
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Cloud | DevOps | SRE "#"\U0001F44B"
+    Content: > 
+      - Random thoughts of a DevOps Engineer from Italy. I like doing things right, and writing things down. 
+      
+      - Passionate about Linux, Kubernetes, distributed computing, cloud technologies, obsessed with automation, self-hosting and open source. 
+
+  socialIcons:
+    - name: "Github"
+      url: "https://github.com/casinesque"
+    - name: "Linkedin"
+      url: "https://linkedin.com/marcocasini21/"
+    - name: email
+      url: 'mailto:marcocasini21[at]gmail[dot]com'
+    # - name: "Letterboxd"
+    #   url: "https://letterboxd.com/alleniano/"
+    # - name: "Goodread"
+    #   url: "https://www.goodreads.com/user/show/180040802-marco-casini"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+    - identifier: tags
+      name: Uses
+      url: /uses/
+      weight: 50
+    - identifier: notes
+      name: Notes
+      url: /notes/
+      weight: 60
+    - identifier: colophon
+      name: Colophon
+      url: /colophon/
+      weight: 90
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
