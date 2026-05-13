@@ -84,7 +84,7 @@ params:
     - name: "Github"
       url: "https://github.com/casinesque"
     - name: "Linkedin"
-      url: "https://linkedin.com/marcocasini2/"
+      url: "https://linkedin.com/in/marcocasini2/"
     - name: email
       url: 'mailto:marcocasini21+casinesque[at]gmail[dot]com'
 
