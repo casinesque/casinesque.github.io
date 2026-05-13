@@ -84,13 +84,9 @@ params:
     - name: "Github"
       url: "https://github.com/casinesque"
     - name: "Linkedin"
-      url: "https://linkedin.com/marcocasini21/"
+      url: "https://linkedin.com/marcocasini2/"
     - name: email
-      url: 'mailto:marcocasini21[at]gmail[dot]com'
-    # - name: "Letterboxd"
-    #   url: "https://letterboxd.com/alleniano/"
-    # - name: "Goodread"
-    #   url: "https://www.goodreads.com/user/show/180040802-marco-casini"
+      url: 'mailto:marcocasini21+casinesque[at]gmail[dot]com'
 
   analytics:
     google:
