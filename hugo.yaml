@@ -17,7 +17,7 @@ minify:
 params:
   env: production
   title: Casinesque.me
-  description: "Casinesque.me-Marco Casini"
+  description: "Casinesque.me"
   keywords: [Blog, Portfolio, Technology, Engineer]
   author: Marco Casini
   DateFormat: "January 2, 2006"
