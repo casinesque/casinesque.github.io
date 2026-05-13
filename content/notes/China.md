@@ -1,6 +1,7 @@
 +++
 title = 'Went to China'
 weight = 4
+draft = false
 tags = ["personal","2025"]
 showtoc = false
 showCodeCopyButtons = false

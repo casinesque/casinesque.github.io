@@ -4,6 +4,7 @@ layout: "watch_read_listen"
 summary: "This is the space about everything i find interesting"
 alt: "Cover image"
 caption: "Welcome"
+draft: false
 relative: false
 aliases:
   - /watch_read_listen/

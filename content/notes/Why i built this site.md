@@ -1,6 +1,6 @@
 +++
 weight = 5
-draft = true
+draft = false
 title = 'About this blog'
 tags = ["personal","2026"]
 hidemeta = false
