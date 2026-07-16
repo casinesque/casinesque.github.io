@@ -118,6 +118,10 @@ menu:
       name: About
       url: /about/
       weight: 30
+    - identifier: work
+      name: Work
+      url: /work/
+      weight: 30
     - identifier: tags
       name: Uses
       url: /uses/
