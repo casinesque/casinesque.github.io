@@ -46,6 +46,8 @@ Contributions to tools I use, projects I admire, and things I've tripped over an
   to GHCR on every release, with pinned + `latest` tags), and fixed a pre-existing
   Dockerfile bug that broke the build entirely. *(open, under review — 6.5k★ repo)*
 
+- **[Qdrant Helm Chart](https://github.com/qdrant/qdrant-helm/pull/484)** — Added support for `namespaceOverride`, allowing chart resources to be deployed into a custom namespace instead of always using the Helm release namespace.
+  *(open)*
 
 - **[pfnet-research/gcp-workload-identity-federation-webhook](https://github.com/pfnet-research/gcp-workload-identity-federation-webhook/pull/141)** —
   Made the mutating webhook's `failurePolicy` and `reinvocationPolicy` configurable via
@@ -68,6 +70,9 @@ collisions in umbrella charts. *(merged)*
 - **[griffinskudder/updater](https://github.com/griffinskudder/updater/pull/155)** —
   Replaced a hardcoded `GOARCH=amd64` in the Dockerfile with `ARG TARGETARCH`, enabling
   multi-arch (arm64) builds via `docker buildx`. *(open)*
+
+- **[terraform-proxmox-sdn](https://github.com/hybridops-tech/terraform-proxmox-sdn/pull/32)** — Added Terraform `validation` blocks to catch invalid Proxmox SDN naming at plan time instead of failing late against the live API.
+*(open)*
 
 - **[StellarSend/backend](https://github.com/StellarSend/backend/pull/19)** — Added a
   `.dockerignore` to shrink the build context and keep `.git/`, build artifacts, and
