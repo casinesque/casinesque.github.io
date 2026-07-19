@@ -41,12 +41,12 @@ https://spoonriverpoems.pages.dev/
 Contributions to tools I use, projects I admire, and things I've tripped over and fixed.
 
 
-- **[OpenChamber](https://github.com/openchamber/openchamber/pull/1986)** — Added a
+- **[openchamber/openchamber](https://github.com/openchamber/openchamber/pull/1986)** — Added a
   `docker_build_and_push` CI job to the release workflow (builds and publishes the image
   to GHCR on every release, with pinned + `latest` tags), and fixed a pre-existing
   Dockerfile bug that broke the build entirely. *(open, under review — 6.5k★ repo)*
 
-- **[Qdrant Helm Chart](https://github.com/qdrant/qdrant-helm/pull/484)** — Added support for `namespaceOverride`, allowing chart resources to be deployed into a custom namespace instead of always using the Helm release namespace.
+- **[qdrant/qdrant-helm](https://github.com/qdrant/qdrant-helm/pull/484)** — Added support for `namespaceOverride`, allowing chart resources to be deployed into a custom namespace instead of always using the Helm release namespace.
   *(open)*
 
 - **[pfnet-research/gcp-workload-identity-federation-webhook](https://github.com/pfnet-research/gcp-workload-identity-federation-webhook/pull/141)** —
@@ -58,11 +58,11 @@ Contributions to tools I use, projects I admire, and things I've tripped over an
   Helm template context bug (`.` vs `$`) that broke `helm template`/upgrade whenever
   additional ingress hostnames were configured. *(merged)*
 
-- **[Hetzner CSI Driver](https://github.com/hetznercloud/csi-driver)** — Renamed Helm
+- **[hetznercloud/csi-driver](https://github.com/hetznercloud/csi-driver)** — Renamed Helm
 named templates with a `hetzner` prefix to resolve `bitnami/common` library
 collisions in umbrella charts. *(merged)*
 
-- **[Cribl helm-charts](https://github.com/criblio/helm-charts/pull/249)** — Fixed a
+- **[criblio/helm-charts](https://github.com/criblio/helm-charts/pull/249)** — Fixed a
   `readonly` → `readOnly` casing bug that silently mounted the host root filesystem
   read-write instead of read-only, and added a unit-test assertion to lock it down.
   *(open)*
@@ -71,7 +71,7 @@ collisions in umbrella charts. *(merged)*
   Replaced a hardcoded `GOARCH=amd64` in the Dockerfile with `ARG TARGETARCH`, enabling
   multi-arch (arm64) builds via `docker buildx`. *(open)*
 
-- **[terraform-proxmox-sdn](https://github.com/hybridops-tech/terraform-proxmox-sdn/pull/32)** — Added Terraform `validation` blocks to catch invalid Proxmox SDN naming at plan time instead of failing late against the live API.
+- **[hybridops-tech/terraform-proxmox-sdn](https://github.com/hybridops-tech/terraform-proxmox-sdn/pull/32)** — Added Terraform `validation` blocks to catch invalid Proxmox SDN naming at plan time instead of failing late against the live API.
 *(open)*
 
 - **[StellarSend/backend](https://github.com/StellarSend/backend/pull/19)** — Added a
