@@ -74,11 +74,6 @@ collisions in umbrella charts. *(merged)*
 - **[hybridops-tech/terraform-proxmox-sdn](https://github.com/hybridops-tech/terraform-proxmox-sdn/pull/32)** — Added Terraform `validation` blocks to catch invalid Proxmox SDN naming at plan time instead of failing late against the live API.
 *(open)*
 
-- **[StellarSend/backend](https://github.com/StellarSend/backend/pull/19)** — Added a
-  `.dockerignore` to shrink the build context and keep `.git/`, build artifacts, and
-  `.env` out of Docker images. *(open)*
-
-
 ## Professional
 
 Day-to-day I work as an SRE/Cloud/DevOps engineer, building and operating cloud
