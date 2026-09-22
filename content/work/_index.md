@@ -44,35 +44,31 @@ Contributions to tools I use, projects I admire, and things I've tripped over an
 - **[openchamber/openchamber](https://github.com/openchamber/openchamber/pull/1986)** — Added a
   `docker_build_and_push` CI job to the release workflow (builds and publishes the image
   to GHCR on every release, with pinned + `latest` tags), and fixed a pre-existing
-  Dockerfile bug that broke the build entirely. *(open, under review — 6.5k★ repo)*
+  Dockerfile bug that broke the build entirely. 
 
 - **[qdrant/qdrant-helm](https://github.com/qdrant/qdrant-helm/pull/484)** — Added support for `namespaceOverride`, allowing chart resources to be deployed into a custom namespace instead of always using the Helm release namespace.
-  *(open)*
 
 - **[pfnet-research/gcp-workload-identity-federation-webhook](https://github.com/pfnet-research/gcp-workload-identity-federation-webhook/pull/141)** —
   Made the mutating webhook's `failurePolicy` and `reinvocationPolicy` configurable via
   `values.yaml` instead of being hardcoded, without breaking existing installs.
-  *(merged, shipped in v0.6.1)*
 
 - **[guerzon/vaultwarden](https://github.com/guerzon/vaultwarden/pull/233)** — Fixed a
   Helm template context bug (`.` vs `$`) that broke `helm template`/upgrade whenever
-  additional ingress hostnames were configured. *(merged)*
+  additional ingress hostnames were configured. 
 
 - **[hetznercloud/csi-driver](https://github.com/hetznercloud/csi-driver)** — Renamed Helm
 named templates with a `hetzner` prefix to resolve `bitnami/common` library
-collisions in umbrella charts. *(merged)*
+collisions in umbrella charts. 
 
 - **[criblio/helm-charts](https://github.com/criblio/helm-charts/pull/249)** — Fixed a
   `readonly` → `readOnly` casing bug that silently mounted the host root filesystem
   read-write instead of read-only, and added a unit-test assertion to lock it down.
-  *(open)*
 
 - **[griffinskudder/updater](https://github.com/griffinskudder/updater/pull/155)** —
   Replaced a hardcoded `GOARCH=amd64` in the Dockerfile with `ARG TARGETARCH`, enabling
-  multi-arch (arm64) builds via `docker buildx`. *(open)*
+  multi-arch (arm64) builds via `docker buildx`. 
 
 - **[hybridops-tech/terraform-proxmox-sdn](https://github.com/hybridops-tech/terraform-proxmox-sdn/pull/32)** — Added Terraform `validation` blocks to catch invalid Proxmox SDN naming at plan time instead of failing late against the live API.
-*(open)*
 
 ## Professional
 
