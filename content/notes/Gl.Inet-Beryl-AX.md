@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'GL.Inet-Beryl-AX'
-weight = 2
+weight = 1
 tags = ["tech","2026"]
 showtoc = false
 author= [""]

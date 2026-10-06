@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Building a secondhand homelab [Part 1]'
-weight = 1
+weight = 2
 tags = ["development","2026"]
 showtoc = false
 author= [""]
