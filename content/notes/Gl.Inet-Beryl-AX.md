@@ -1,6 +1,6 @@
 +++
 draft = false
-title = 'GL.Inet-BerylAX3000'
+title = 'GL.Inet-Beryl-AX'
 weight = 2
 tags = ["tech","2026"]
 showtoc = false
